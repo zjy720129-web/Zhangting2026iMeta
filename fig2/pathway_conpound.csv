@@ -1,0 +1,62 @@
+﻿Pathways,KEGG,Compound
+Caffeine metabolism,C07480,Theobromine
+Caffeine metabolism,C13747,"1,7-Dimethylxanthine"
+Caffeine metabolism,C16356,"1,7-Dimethyluric acid"
+Caffeine metabolism,C16365,5-Acetylamino-6-formylamino-3-methyluracil
+Sphingolipid metabolism,C00195,N-Acylsphingosine
+Sphingolipid metabolism,C00550,Sphingomyelin
+Sphingolipid metabolism,C00836,Sphinganine
+Sphingolipid metabolism,C01190,Glucosylceramide
+Sphingolipid metabolism,C01290,Lactosylceramide
+Sphingolipid metabolism,C02960,Ceramide 1-phosphate
+Sphingolipid metabolism,C06125,Sulfatide
+Sphingolipid metabolism,C12126,Dihydroceramide
+Sphingolipid metabolism,C12145,Phytoceramide
+Ascorbate and aldarate metabolism,C00029,UDP-glucose
+Ascorbate and aldarate metabolism,C00191,D-Glucuronate
+Ether lipid metabolism,C03201,1-Alkyl-2-acylglycerol
+Ether lipid metabolism,C04475,1-Alkyl-2-acylglycerophosphoethanolamine
+Ether lipid metabolism,C05212,1-Radyl-2-acyl-sn-glycero-3-phosphocholine
+"Phenylalanine, tyrosine and tryptophan biosynthesis",C00082,L-Tyrosine
+Glycerophospholipid metabolism,C00157,Phosphatidylcholine
+Glycerophospholipid metabolism,C00344,Phosphatidylglycerol
+Glycerophospholipid metabolism,C00350,Phosphatidylethanolamine
+Glycerophospholipid metabolism,C00416,Phosphatidate
+Glycerophospholipid metabolism,C00641,"1,2-Diacyl-sn-glycerol"
+Glycerophospholipid metabolism,C00681,1-Acyl-sn-glycerol 3-phosphate
+Glycerophospholipid metabolism,C01194,1-Phosphatidyl-D-myo-inositol
+Glycerophospholipid metabolism,C04230,1-Acyl-sn-glycero-3-phosphocholine
+Glycerophospholipid metabolism,C04438,1-Acyl-sn-glycero-3-phosphoethanolamine
+Glycerophospholipid metabolism,C05974,2-Acyl-sn-glycero-3-phosphoserine
+Starch and sucrose metabolism,C00029,UDP-glucose
+Starch and sucrose metabolism,C00031,D-Glucose
+Glycerolipid metabolism,C00162,Fatty acid
+Glycerolipid metabolism,C00416,Phosphatidate
+Glycerolipid metabolism,C00641,"1,2-Diacyl-sn-glycerol"
+Glycerolipid metabolism,C00681,1-Acyl-sn-glycerol 3-phosphate
+Glycerolipid metabolism,C01885,1-Acylglycerol
+"Glycine, serine and threonine metabolism",C00037,Glycine
+"Glycine, serine and threonine metabolism",C00188,L-Threonine
+"Glycine, serine and threonine metabolism",C00213,Sarcosine
+Arachidonic acid metabolism,C00157,Phosphatidylcholine
+Arachidonic acid metabolism,C00219,Arachidonate
+Arachidonic acid metabolism,C04671,"(5Z)-11alpha-Hydroxy-9,15-dioxoprostanoate"
+"Alanine, aspartate and glutamate metabolism",C00049,L-Aspartate
+"Alanine, aspartate and glutamate metabolism",C00438,N-Carbamoyl-L-aspartate
+"Alanine, aspartate and glutamate metabolism",C03794,"N6-(1,2-Dicarboxyethyl)-AMP"
+Tryptophan metabolism,C00078,L-Tryptophan
+Tryptophan metabolism,C00398,Tryptamine
+Tryptophan metabolism,C00637,Indole-3-acetaldehyde
+Tryptophan metabolism,C05643,6-Hydroxymelatonin
+Arginine and proline metabolism,C00077,L-Ornithine
+Vitamin B6 metabolism,C00314,Pyridoxine
+Vitamin B6 metabolism,C00534,Pyridoxamine
+Pentose and glucuronate interconversions,C00029,UDP-glucose
+Pentose and glucuronate interconversions,C00191,D-Glucuronate
+Tyrosine metabolism,C00082,L-Tyrosine
+Tyrosine metabolism,C02465,Triiodothyronine
+Tyrosine metabolism,C03765,4-Hydroxyphenylacetaldehyde
+Pyrimidine metabolism,C00178,Thymine
+Pyrimidine metabolism,C00295,Orotate
+Pyrimidine metabolism,C00438,N-Carbamoyl-L-aspartate
+Glyoxylate and dicarboxylate metabolism,C00037,Glycine
