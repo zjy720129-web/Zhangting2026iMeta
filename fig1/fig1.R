@@ -88,7 +88,7 @@ dat = dat[is.finite(dat$FB_ratio),]
 mean_FB = c()
 for(i in unique(dat$Group)){
   tps = subset(dat,Group%in%i)
-  tempdata = data.frame(Group2 = tps[1,1],Group = tps[1,2],group = tps[1,6],mean_FB = log(mean(tps$FB_ratio)))
+  tempdata = data.frame(Group2 = tps[1,1],Group = tps[1,2],group = tps[1,6],mean_FB = log2(mean(tps$FB_ratio)))
   mean_FB = mean_FB %>% rbind(tempdata)
 }
 
@@ -100,7 +100,7 @@ mean_FB$angle <- ifelse(angle < -90, angle + 180, angle)
 head(mean_FB)
 
 p = ggplot(data = mean_FB, aes(x = as.factor(new_x), y = mean_FB, fill = Group2)) +
-  geom_bar(stat = "identity")+ ylim(-3, 7)+
+  geom_bar(stat = "identity")+ ylim(-3, 9)+
   coord_polar(start = 0) +scale_fill_manual(values = c('#ee3124','#50bcb6')) +
   theme_minimal() +theme(axis.text = element_blank(),axis.title = element_blank(),panel.grid = element_blank())+
   geom_text(aes(label = "DEG"),x = -0, y = -750, size = 4, fontface = 'bold', family = "serif")+
@@ -108,7 +108,7 @@ p = ggplot(data = mean_FB, aes(x = as.factor(new_x), y = mean_FB, fill = Group2)
   geom_text(data = mean_FB,aes(x = new_x,y = mean_FB+0.2,
                                label = Group,hjust = hjust),color = 'black', size = 4, fontface = 'bold', 
             angle = mean_FB$angle,inherit.aes = FALSE )+ 
-  labs(title = "log(F/B ratio)")+theme(plot.title = element_text(hjust = 0.5 ,vjust=-1,face="bold",size = 16))
+  labs(title = "log[2](F/B ratio)")+theme(plot.title = element_text(hjust = 0.5 ,vjust=-1,face="bold",size = 16))
 ggsave("./fig1_J.pdf",p,width = 6,height=6)
 
 
